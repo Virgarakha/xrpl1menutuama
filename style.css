@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bowlby+One+SC&family=Edu+SA+Beginner:wght@500&family=Lilita+One&family=Montserrat&family=Poppins:wght@300;700&family=REM&family=Rancho&family=Rock+Salt&family=Rowdies&family=Ysabeau+SC&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    background-image: url(b.png);
+    min-height: 110vh;
+}
+
+html {
+    font-family: 'Monserrat' , sans-serif;
+}
+
+
+.navb {
+    z-index: 1;
+    background-color: rgb(36, 36, 36);
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    margin-top: -100px;
+}
+
+.navb2 h1 {
+
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.navb2 h2 {
+    padding-left: 10px;
+    color: crimson;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.nvbr ul li a {
+    text-decoration: none;
+    list-style: none;
+    float: right;
+    margin-top: -30px;
+    color: white;
+    background-color: crimson;
+    padding: 5px 9px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.nvbr ul li :hover {
+    background-color: white;
+    color: crimson;
+    transition: all .4s ease-in-out;
+}
+
+.wel {
+    margin-top: 100px;
+    margin-left: 20px;
+    text-shadow: 5px 5px 5px black;
+}
+
+
+.wel2 h1{
+    padding: none;
+    display: block;
+    font-size: 88px;
+    color: white;
+}
+
+.wel2 h2 {
+    display: block;
+    font-size: 38px;
+    color: white;
+    margin-top: -10px;
+}
+
+.wel2 h2 span {
+    color: crimson;
+}
+
+.pc2 img {
+    margin-left: 20px;
+}
+.pc2 {
+    margin-top: 20px;
+}
+.pc2 h1{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.pc2 h1 span {
+    color: crimson;
+}
+
+
+.pc2 h2 {
+    background-color: gray;
+    width: 140px;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+.pc2 a  {
+    color: white;
+    text-decoration: none;
+}
+
+.pc2 h2:hover {
+    background-color: crimson;
+    transition: all .4s ease-in-out;
+}
+
+
+.mb2 img {
+    margin-left: 20px;
+}
+
+.mb2 {
+    margin-top: 20px;
+}
+.mb2 h1{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.mb2 h1 span {
+    color: crimson;
+}
+
+
+.mb2 h2 {
+    margin-left: 20px;
+    background-color: gray;
+    width: 140px;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mb2 a  {
+    color: white;
+    text-decoration: none;
+}
+
+.pc2 h2:hover {
+    background-color: crimson;
+    transition: all .4s ease-in-out;
+}
+.mb2 h2:hover {
+    background-color: crimson;
+    transition: all .4s ease-in-out;
+}
+
+.medsos {
+    margin-top: 40px;
+}
+
+.medsos h2 {
+    color: white;
+    font-size: 12px;
+}
+
+.medsos2 {
+    margin-left: 70px;
+}
+
+.medsos2 img{
+    padding-left: 40px;
+}
+
+.ver {
+    float: right;
+    margin-top: -65px;
+    margin-right: 100px;
+}
+
+.ver img {
+    padding-left: 10px;
+}
+
+@media (max-width: 1300px) {
+
+    .wel h1{
+        font-size: 28px;
+    }
+    .wel h2 {
+        font-size: 18px;
+        margin-top: 0;
+    }
+    .wel {
+        margin-left: 20px;
+    }
+    .pc2 img {
+        margin-left:65px;
+    }
+    .pc2 h1 {
+        margin-left: 25px;
+        font-size: 20px;
+    }
+    .pc2 h2 {
+        font-size: 15px;
+        background-color: gray;
+        width: 60px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 55px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .pl {
+        margin-left: 92px;
+        margin-top: 50px;
+        background-color: rgba(100, 100, 100, 0.6);
+        width: 50%;
+        padding : 20px 0;
+        border-radius: 20px;
+    }
+    .mb2 img {
+        margin-left:65px;
+    }
+    .mb2 h1 {
+        margin-left: 25px;
+        font-size: 20px;
+    }
+    .mb2 h2 {
+        font-size: 15px;
+        background-color: gray;
+        width: 60px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 55px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .ml {
+        margin-left: 92px;
+        margin-top: 50px;
+        background-color: rgba(100, 100, 100, 0.6);
+        width: 50%;
+        padding : 20px 0;
+        border-radius: 20px;
+    }
+
+    .ml :hover {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 750px) {
+    .wel {
+        margin-left: 40px;
+    }
+    .wel h1{
+        font-size: 88px;
+    }
+    .wel h2 {
+        font-size: 38px;
+        margin-top: -10px;
+    }
+    .pc2 img {
+        margin-left: 120px;
+    }
+    .pc2 h1 {
+        margin-left: 50px;
+    }
+    .pc2 h2 {
+        background-color: gray;
+        width: 140px;
+        padding-left: 60px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 50px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .pl {
+        margin-top: 50px;
+        background-color: rgba(100, 100, 100, 0.6);
+        width: 29%;
+        padding : 50px 0;
+        border-radius: 20px;
+    }
+    .mb2 img {
+        margin-left: 120px;
+    }
+    .mb2 h1 {
+        margin-left: 50px;
+    }
+    .mb2 h2 {
+        background-color: gray;
+        width: 140px;
+        padding-left: 60px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 50px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .ml {
+        margin-top: 50px;
+        background-color: rgba(100, 100, 100, 0.6);
+        width: 29%;
+        padding : 50px 0;
+        border-radius: 20px;
+    }
+
+    .mb2 h2 {
+        background-color: gray;
+        width: 140px;
+        padding-left: 60px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .pc {
+        margin-left: 42%;
+    }
+    
+    .medsos2 {
+        margin-left: 780px;
+    }
+    .ver {
+        margin-right: 800px;
+    }
+
+}
